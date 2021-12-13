@@ -54,12 +54,11 @@ def sierpinski_dreieck(turtle, x1, y1, x2, y2, farbe, tiefe, maximaltiefe):
 tim = t.Turtle("turtle")
 screen = Screen()
 screen.bgcolor("blanched almond")
-screen.colormode(255)
 tim.speed("fastest")
 
 tim.color( "sienna")
 zeichne_stamm(tim, -100, -200, 100,-350, "sienna")
-sierpinski_dreieck(tim, -300, 200, 300, 200, "forest green", 0, 5)
+sierpinski_dreieck(tim, -300, 200, 300, 200, "forest green", 0, 2)
 tim.hideturtle()
 
 screen.exitonclick()
