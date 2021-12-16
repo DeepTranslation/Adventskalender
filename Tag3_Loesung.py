@@ -19,9 +19,9 @@ print("Finde den Weihnachtsbaum!\n ")
 
 #Schreibe deinen Code unter dieser Zeile 👇
 
-wahl1 = input('Du befindest dich an einer Weggabelung. Nach links geht es in den tief verschneiten Wald und nach rechts'
-              ' über das in der tief stehenden Wintersonne vor sich hin glitzernde Feld. Um weiterzugehen, gib "links" '
-              'oder "rechts" ein:\n')
+wahl1 = input('Du befindest dich an einer Weggabelung. Nach rechts geht es in den tief verschneiten Wald und nach links'
+              ' über das in der tief stehenden Wintersonne vor sich hin glitzernde Feld. Um weiterzugehen, gib "rechts" '
+              'oder "links" ein:\n')
 if wahl1 == "rechts":
   wahl2 = input('Du stapfst durch den Schnee und gelangst an einen sich zwischen den Bäumen dahinschlängelnden Bach. '
                 'Willst du hinüber "springen" oder nach einer Brücke "suchen"? \n')
